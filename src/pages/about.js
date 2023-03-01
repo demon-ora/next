@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
 
 const about = () => {
   return (
-    <div>about</div>
-  )
-}
+    <>
+      <Image src="/fate.webp" height="300" width="300" />
 
-export default about
+      <Image
+        src="https://dummyimage.com/600x400/000/fff"
+        height="300"
+        width="300"
+      />
+    </>
+  );
+};
+
+export default about;
