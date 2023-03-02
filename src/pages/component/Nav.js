@@ -12,15 +12,15 @@ const Nav = () => {
         <Link href="/home" className={styles.link}>
           home
         </Link>
-        <Link href="/blog/blog" className={styles.link}>
+        <Link href="/blog/bloge" className={styles.link}>
           blog
         </Link>
         <Link href="/about" className={styles.link}>
           about
         </Link>
-        <Link href="/blog/pageno" className={styles.link}>
+        {/* <Link href="/blog/pageno" className={styles.link}>
           pageno
-        </Link>
+        </Link> */}
       </nav>
     </>
   );
