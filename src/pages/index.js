@@ -7,6 +7,7 @@ const index = () => {
     <>
       <Head>
         <title>hello world</title>
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <Nav />
     </>

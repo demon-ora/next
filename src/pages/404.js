@@ -1,8 +1,9 @@
+import Link from "next/link";
 import Router from "next/router";
 import React from "react";
 import { useEffect } from "react";
 
-const error = () => {
+const Error = () => {
   useEffect(() => {
     setTimeout(() => {
       Router.push("/");
@@ -12,9 +13,9 @@ const error = () => {
   return (
     <>
       <h1>eroor page not found return to</h1>
-      <a href="/">home page</a>
+      <Link href="/">home page</Link>
     </>
   );
 };
 
-export default error;
+export default Error;

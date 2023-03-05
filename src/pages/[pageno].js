@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-const pageno = () => {
+const Pageno = () => {
   const router = useRouter();
   const user = router.query.pageno;
   return (
@@ -10,4 +10,4 @@ const pageno = () => {
   );
 };
 
-export default pageno;
+export default Pageno;
